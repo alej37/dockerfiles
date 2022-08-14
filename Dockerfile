@@ -1,4 +1,4 @@
-FROM node
+FROM node:13-alpine
 
 #executed only inside the container
 RUN mkdir -p /home/app
